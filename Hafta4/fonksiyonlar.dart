@@ -27,4 +27,5 @@ void main(List<String> args) {
   print(carp(10));
   print(bolme(a: 10, b: 2));
   print(toplaArrow(10, 15));
+  print("10x5 = ${carp(10, 5)}");
 }
