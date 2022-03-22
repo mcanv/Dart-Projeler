@@ -6,4 +6,9 @@ void main(List<String> args) {
   isimler.forEach((isim) {
     print(isim);
   });
+  int i = 10;
+  while (i > 0) {
+    print(i);
+    i--;
+  }
 }
