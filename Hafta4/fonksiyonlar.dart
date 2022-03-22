@@ -18,10 +18,13 @@ double bolme({required int a, b}) {
   return a / b;
 }
 
+int toplaArrow(int a, int b) => a + b;
+
 void main(List<String> args) {
   merhaba();
   print(topla(10, 15));
   yazdir("Mehmetcan", "Vardar", 19);
   print(carp(10));
   print(bolme(a: 10, b: 2));
+  print(toplaArrow(10, 15));
 }
