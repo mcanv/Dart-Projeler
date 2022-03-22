@@ -10,6 +10,10 @@ void yazdir(String ad, String soyad, int yas) {
   print("Adınız: $ad\nSoyadınız: $soyad\nYaşınız: $yas");
 }
 
+int carp(int a, [int b = 2]) {
+  return a * b;
+}
+
 void main(List<String> args) {
   merhaba();
   print(topla(10, 15));
