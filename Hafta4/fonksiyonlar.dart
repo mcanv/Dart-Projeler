@@ -18,4 +18,5 @@ void main(List<String> args) {
   merhaba();
   print(topla(10, 15));
   yazdir("Mehmetcan", "Vardar", 19);
+  print(carp(10));
 }
