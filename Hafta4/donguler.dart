@@ -13,4 +13,10 @@ void main(List<String> args) {
     print(i);
     i--;
   }
+  i = 10;
+  print("\n");
+  do {
+    print(i);
+    i--;
+  } while (i > 0);
 }
