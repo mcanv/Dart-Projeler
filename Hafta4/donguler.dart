@@ -3,4 +3,7 @@ void main(List<String> args) {
   for (String isim in isimler) {
     print(isim);
   }
+  isimler.forEach((isim) {
+    print(isim);
+  });
 }
